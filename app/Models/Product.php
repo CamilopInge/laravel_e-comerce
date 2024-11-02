@@ -16,5 +16,5 @@ class Product extends Model
     // public $timestamps = false;
 
     // Especifica los campos que pueden ser llenados masivamente (opcional)
-    protected $fillable = ['name', 'price', 'stock'];
+    protected $fillable = ['name', 'price', 'stock', 'category', 'image']; // Agrega 'image' aquí
 }
